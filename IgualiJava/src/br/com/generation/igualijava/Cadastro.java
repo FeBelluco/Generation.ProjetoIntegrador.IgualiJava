@@ -3,15 +3,14 @@ package br.com.generation.igualijava;
 public class Cadastro {
 	
 
-	// Atributos --> variaveis
-	private String nome; // chama me pelo nome
-	private String identiGenero; // idenfica com TRans,cis,nao binario e etc 5
-	private String OrientSexo; // Orientação sexual declarada.
-	private String etnia; // Qual etnia a pessoa declara.
-	private double renda; // <=1212,00 = 10% | >1212,00 = 5%
+	// Atributos
+	private String nome;
+	private String identiGenero; 
+	private String OrientSexo;
+	private String etnia;
+	private double renda;
 	
 	// Métodos de ação --> getters and setters
-
 	public String getNome() {
 		return nome;
 	}
